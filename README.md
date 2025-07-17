@@ -28,7 +28,7 @@
 
 ## 📁 폴더 구조
 
-\`\`\`plaintext
+```
 customer-segmentation-profit-optimization/
 ├── data/                  # 샘플 데이터 (실제 데이터는 비공개)
 ├── images/                # 보고서에 실제 사용된 핵심 그래프(주요 그래프)
@@ -38,7 +38,7 @@ customer-segmentation-profit-optimization/
 ├── requirements.txt       # 사용한 라이브러리 목록
 ├── .gitignore             # Git 무시 설정
 └── README.md              # 프로젝트 설명 파일
-\`\`\`
+```
 
 ---
 
