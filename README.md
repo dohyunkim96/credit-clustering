@@ -10,7 +10,7 @@
 - 마케팅 실행 시 수익 증가 기대액 **$95,207**, ROI 최대 **+62.9%**, 전체 수익률 **+9.8%p 향상**
 
 ## 📁 데이터 소개  
-- 출처: Kaggle (익명화된 카드사 거래 데이터셋)  
+- 출처: [캐글 데이터셋] (https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data)
 - 구성: 고객 정보 (2,000명), 거래 데이터 (1,300만 건), 카드 정보 (6,146건), 업종 정보 (MCC 코드)  
 - 주요 변수: `online_tx_ratio`, `tx_amount`, `total_debt`, `tx_count`, `credit_risk`, `per_capita_income`, `credit_score`, `total_debt`, `tx_amount` 등
 - 파생 변수: `income_to_debt_ratio`, `credit_to_tx_ratio`, `debt_to_credit_ratio`
