@@ -12,7 +12,8 @@
 ## 📁 데이터 소개  
 - 출처: Kaggle (익명화된 카드사 거래 데이터셋)  
 - 구성: 고객 정보 (2,000명), 거래 데이터 (1,300만 건), 카드 정보 (6,146건), 업종 정보 (MCC 코드)  
-- 주요 변수: `per_capita_income`, `credit_score`, `total_debt`, `tx_amount`, `online_tx_ratio` 등  
+- 주요 변수: `online_tx_ratio`, `tx_amount`, `total_debt`, `tx_count`, `credit_risk`, `per_capita_income`, `credit_score`, `total_debt`, `tx_amount` 등
+- 파생 변수: `income_to_debt_ratio`, `credit_to_tx_ratio`, `debt_to_credit_ratio`
 - 민감 정보는 모두 비식별화 및 범주화 처리
 
 ## 🧪 가설 기반 EDA 요약
