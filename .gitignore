@@ -1,0 +1,24 @@
+# Jupyter 노트북 자동 저장 파일
+.ipynb_checkpoints/
+
+# 파이썬 캐시
+__pycache__/
+*.py[cod]
+
+# 데이터 파일 (예시: 대용량 또는 민감 정보일 경우)
+data/*.csv
+data/*.xlsx
+
+# 환경 파일
+.env
+*.sqlite3
+
+# IDE/에디터 설정
+.vscode/
+.idea/
+
+# macOS 관련
+.DS_Store
+
+# 기타
+*.log
