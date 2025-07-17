@@ -53,3 +53,37 @@ customer-segmentation-profit-optimization/
 ![UMAP 클러스터링](images/umap_kmeans.png)  
 ![히트맵](images/cluster_heatmap.png)  
 ![ROI 및 수익 기여액](images/cluster_roi.png)
+
+---
+
+## 📄 보고서 / 노트북 링크  
+- 📘 [최종 보고서 PDF](./report/Project%20Report.pdf)  
+- 📓 분석 코드: `notebooks/` 폴더 참고
+
+---
+
+## ⚙️ 실행 환경  
+```bash
+conda create -n segmentenv python=3.9
+conda activate segmentenv
+pip install -r requirements.txt
+```
+
+---
+
+## 🚀 향후 개선 방향
+- LTV/Churn 예측 모델 통합을 통한 정량 기반 마케팅 우선순위 정교화
+- 클러스터 내 서브그룹 도출 및 개인화 전략
+- 시계열 분석 기반의 이상 탐지 및 마케팅 반응률 추적
+
+---
+
+## 👥 팀 정보 / 역할 분담
+본 프로젝트는 5인 팀 프로젝트로 수행되었습니다.
+| 이름  | 담당 역할                                         |
+| --- | --------------------------------------------- |
+| 김도현 | 데이터 전처리, 머신러닝 튜닝, EDA, 클러스터링, 마케팅 전략 도출, 보고서 작성 |
+| 이영섭 | 시계열 분석, EDA, 클러스터링, 마케팅 전략 도출, 보고서 작성 |
+| 이하린 | 기술 통계 분석, 시각화, EDA, 클러스터링, 마케팅 전략 도출, 보고서 작성 |
+| 장다향 | 일정 관리, 역할 배정, 데이터 수집, EDA, 클러스터링, 마케팅 전략 도출, 보고서 작성 |
+| 전재영 | 크로스탭 분석, EDA, 클러스터링, 마케팅 전략 도출, 보고서 작성, 발표 |
