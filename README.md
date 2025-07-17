@@ -21,11 +21,52 @@
 > ✅ ROI와 수익 증가액을 기준으로 최적의 타겟 마케팅 우선순위를 제안
 
 ## 📁 데이터 소개  
-- 출처: [캐글 데이터셋] (https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data)
-- 구성: 고객 정보 (2,000명), 거래 데이터 (1,300만 건), 카드 정보 (6,146건), 업종 정보 (MCC 코드)  
-- 주요 변수: `online_tx_ratio`, `tx_amount`, `total_debt`, `tx_count`, `credit_risk`, `per_capita_income`, `credit_score`, `total_debt`, `tx_amount` 등
-- 파생 변수: `income_to_debt_ratio`, `credit_to_tx_ratio`, `debt_to_credit_ratio`
-- 민감 정보는 모두 비식별화 및 범주화 처리
+- 출처: [Kaggle 카드 거래 데이터셋](https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data)
+- 구성: 고객 정보 (2,000명), 거래 데이터 (1,300만 건), 카드 정보 (6,146건), 업종 정보 (MCC 코드)
+
+<table>
+<tr>
+<td valign="top">
+
+<h4>주요 변수 설명</h4>
+
+<table>
+<thead>
+<tr><th>변수명</th><th>의미</th></tr>
+</thead>
+<tbody>
+<tr><td><code>tx_amount</code></td><td>총 거래 금액 (연간 기준)</td></tr>
+<tr><td><code>tx_count</code></td><td>총 거래 건수</td></tr>
+<tr><td><code>per_capita_income</code></td><td>1인당 연간 소득</td></tr>
+<tr><td><code>total_debt</code></td><td>총 부채 금액</td></tr>
+<tr><td><code>credit_score</code></td><td>신용 점수 (0~850 범위)</td></tr>
+<tr><td><code>online_tx_ratio</code></td><td>온라인 거래 비중 (%)</td></tr>
+<tr><td><code>credit_risk</code></td><td>부채 대비 신용 위험도</td></tr>
+<tr><td><code>lifetime</code></td><td>가입 기간 (월 기준)</td></tr>
+</tbody>
+</table>
+
+</td>
+<td width="5%"></td> <!-- 간격 -->
+
+<td valign="top">
+
+<h4>파생 변수 설명</h4>
+
+<table>
+<thead>
+<tr><th>변수명</th><th>의미</th></tr>
+</thead>
+<tbody>
+<tr><td><code>income_to_debt_ratio</code></td><td>연소득 대비 부채 비율</td></tr>
+<tr><td><code>credit_to_tx_ratio</code></td><td>거래금액 대비 신용점수 비율</td></tr>
+<tr><td><code>debt_to_credit_ratio</code></td><td>신용 대비 부채 비율</td></tr>
+</tbody>
+</table>
+
+</td>
+</tr>
+</table>
 
 ## 🧪 가설 기반 EDA 요약
 - 고객의 **거주지에 따른 소비 패턴 차이**를 확인해 지역별 마케팅 전략 수립 가능성을 제시  
