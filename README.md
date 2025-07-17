@@ -34,7 +34,7 @@ customer-segmentation-profit-optimization/
 ├── images/                # 보고서에 실제 사용된 핵심 그래프(주요 그래프)
 ├── experiments/           # 탐색적 분석 및 시도된 보조 시각화(보조 그래프)
 ├── notebooks/             # 분석 노트북 (EDA, Clustering 등)
-├── docs/                  # 최종 결과보고서 (PDF)
+├── report/                # 최종 결과보고서 (PDF)
 ├── requirements.txt       # 사용한 라이브러리 목록
 ├── .gitignore             # Git 무시 설정
 └── README.md              # 프로젝트 설명 파일
