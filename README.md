@@ -77,10 +77,17 @@
 
 > ※ 해당 가설들은 텍스트 기반 분석으로만 요약되었으며, 시각화 그래프는 report에 포함되어 있습니다.
 
-## 🛠 기술 스택  
-- Python (pandas, numpy, sklearn, umap-learn, seaborn, matplotlib)  
-- GeoPandas (위경도 기반 지역군 분석)  
-- SQL (대용량 거래데이터 전처리 및 집계)
+## 🛠 사용 기술 스택
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![UMAP](https://img.shields.io/badge/UMAP--learn-FF8000?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-76B900?style=for-the-badge&logo=python&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![GeoPandas](https://img.shields.io/badge/GeoPandas-0C3B4A?style=for-the-badge)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
 
